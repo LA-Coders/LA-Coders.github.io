@@ -21,3 +21,11 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+<script>
+  var me = document.currentScript.ownerDocument;
+  var post = me.querySelector('#nav');
+
+  var container = document.querySelector('#nav');
+  nav.appendChild(post.cloneNode(true));
+</script>
